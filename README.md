@@ -43,12 +43,15 @@ Inverse	Basic inverse implementation
 Equality Check	Compare matrices
 Save to File	Store matrices in text file
 Load from File	Read matrices from file
+
 Project Structure
+
 matrix-calculator-cpp/
 │
 ├── main.cpp
 ├── matrix_data.txt
 └── README.md
+
 Menu Options
 1. Input Matrix A
 2. Input Matrix B
@@ -70,6 +73,7 @@ Menu Options
 18. A -= B
 19. A *= B
 0. Exit
+   
 How to Run
 Using g++
 g++ main.cpp -o matrix
