@@ -1,58 +1,92 @@
-Matrix Calculator in C++
+# Matrix Calculator in C++
 
 An advanced console-based Matrix Calculator developed in C++ using Object-Oriented Programming (OOP) concepts.
-The project supports multiple matrix operations including addition, subtraction, multiplication, transpose, determinant calculation, scalar multiplication, file handling, and operator overloading.
 
-Features
-Matrix Addition
-Matrix Subtraction
-Matrix Multiplication
-Scalar Multiplication
-Matrix Transpose
-Determinant Calculation
-Matrix Equality Check
-Matrix File Save & Load
-Dynamic Memory Allocation
-Operator Overloading
-Exception Handling
-Square Matrix Support
-Technologies Used
-C++
-OOP Concepts
-File Handling
-Dynamic Memory Management
-Exception Handling
-OOP Concepts Implemented
-Concept	Usage
-Classes & Objects	Matrix and SquareMatrix classes
-Inheritance	SquareMatrix inherits Matrix
-Constructors	Parameterized & Copy constructors
-Destructor	Memory deallocation
-Operator Overloading	+=, -=, *=
-Encapsulation	Matrix operations inside classes
-Exception Handling	Error handling using try-catch
-Supported Operations
-Operation	Description
-Addition	A + B
-Subtraction	A - B
-Multiplication	A × B
-Scalar Multiplication	Matrix × Scalar
-Transpose	Matrix transpose
-Determinant	Square matrix determinant
-Inverse	Basic inverse implementation
-Equality Check	Compare matrices
-Save to File	Store matrices in text file
-Load from File	Read matrices from file
+The project supports multiple matrix operations including:
+- Addition
+- Subtraction
+- Multiplication
+- Transpose
+- Determinant Calculation
+- Scalar Multiplication
+- File Handling
+- Operator Overloading
 
-Project Structure
+---
 
+# Features
+
+- Matrix Addition
+- Matrix Subtraction
+- Matrix Multiplication
+- Scalar Multiplication
+- Matrix Transpose
+- Determinant Calculation
+- Matrix Equality Check
+- Matrix File Save & Load
+- Dynamic Memory Allocation
+- Operator Overloading
+- Exception Handling
+- Square Matrix Support
+
+---
+
+# Technologies Used
+
+- C++
+- OOP Concepts
+- File Handling
+- Dynamic Memory Management
+- Exception Handling
+
+---
+
+# OOP Concepts Implemented
+
+| Concept | Usage |
+|---|---|
+| Classes & Objects | Matrix and SquareMatrix classes |
+| Inheritance | SquareMatrix inherits Matrix |
+| Constructors | Parameterized & Copy constructors |
+| Destructor | Memory deallocation |
+| Operator Overloading | +=, -=, *= |
+| Encapsulation | Matrix operations inside classes |
+| Exception Handling | Error handling using try-catch |
+
+---
+
+# Supported Operations
+
+| Operation | Description |
+|---|---|
+| Addition | A + B |
+| Subtraction | A - B |
+| Multiplication | A × B |
+| Scalar Multiplication | Matrix × Scalar |
+| Transpose | Matrix transpose |
+| Determinant | Square matrix determinant |
+| Inverse | Basic inverse implementation |
+| Equality Check | Compare matrices |
+| Save to File | Store matrices in text file |
+| Load from File | Read matrices from file |
+
+---
+
+# Project Structure
+
+```bash
 matrix-calculator-cpp/
 │
 ├── main.cpp
 ├── matrix_data.txt
 └── README.md
+```
 
-Menu Options
+---
+
+# Menu Options
+
+```txt
 1. Input Matrix A
 2. Input Matrix B
 3. Display Matrix A
@@ -73,45 +107,44 @@ Menu Options
 18. A -= B
 19. A *= B
 0. Exit
-   
-How to Run
-Using g++
+```
+
+---
+
+# How to Run
+
+## Using g++
+
+```bash
 g++ main.cpp -o matrix
 ./matrix
-Using Visual Studio
-Open project in Visual Studio
-Build the project
-Run the program
-File Handling
+```
 
-The program supports:
+## Using Visual Studio
 
-Saving matrices into text files
-Loading matrices from files
-Persistent matrix storage
-Exception Handling
+1. Open project in Visual Studio
+2. Build the project
+3. Run the program
 
-The project handles errors such as:
+---
 
-Invalid matrix dimensions
-Invalid operations
-File opening errors
-Dimension mismatch during operations
-Future Improvements
-GUI Version
-Sparse Matrix Support
-Real Matrix Inversion
-Eigenvalue Calculation
-Matrix Visualization
-Scientific Calculator Integration
-Author
+# Future Improvements
+
+- GUI Version
+- Sparse Matrix Support
+- Real Matrix Inversion
+- Eigenvalue Calculation
+- Matrix Visualization
+- Scientific Calculator Integration
+
+---
+
+# Author
 
 Developed by Rohan Munir
 
-License
+---
+
+# License
 
 This project is created for educational and learning purposes.
-
-Source File
-
-Main implementation
